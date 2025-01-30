@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalibrr - Find Your Next Career</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="JobHub">
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search jobs, keywords, companies">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="nav-buttons">
+                <a href="speaker-submission.html" class="employer-btn">For Employers</a>
+                <a href="#" class="login-btn">Login</a>
+                <a href="#" class="signup-btn">Sign Up</a>
+                <select class="language-select">
+                    <option value="en">EN</option>
+                    <option value="ph">PH</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Find Your Dream Job Today</h1>
+            <p>Discover thousands of job opportunities with all the information you need.</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">10K+</span>
+                    <span class="stat-label">Active Jobs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5K+</span>
+                    <span class="stat-label">Companies</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">8M+</span>
+                    <span class="stat-label">Job Seekers</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories-section">
+        <h2>Popular Categories</h2>
+        <div class="categories">
+            <div class="category-card">
+                <i class="fas fa-star"></i>
+                <span>Featured Jobs</span>
+                <span class="job-count">1.2k jobs</span>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-laptop-house"></i>
+                <span>Remote Jobs</span>
+                <span class="job-count">850 jobs</span>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-building"></i>
+                <span>Hybrid</span>
+                <span class="job-count">945 jobs</span>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-user-graduate"></i>
+                <span>Fresh Grads</span>
+                <span class="new-badge">NEW</span>
+                <span class="job-count">500 jobs</span>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-briefcase"></i>
+                <span>All Jobs</span>
+                <span class="job-count">2.5k jobs</span>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-clock"></i>
+                <span>New Jobs</span>
+                <span class="job-count">300 jobs</span>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-users"></i>
+                <span>Internships</span>
+                <span class="job-count">425 jobs</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured-companies">
+        <h2 class="section-title">Featured Companies</h2>
+        <div class="company-logos">
+            <div class="company-logo">
+                <img src="assets/company-logos/techcorp.svg" alt="TechCorp">
+                <h3>TechCorp</h3>
+                <p>Software Solutions</p>
+            </div>
+            <div class="company-logo">
+                <img src="assets/company-logos/innovateph.svg" alt="InnovatePH">
+                <h3>InnovatePH</h3>
+                <p>Digital Innovation</p>
+            </div>
+            <!-- Add more company logos -->
+        </div>
+    </div>
+
+    <main class="job-listings-section">
+        <div class="job-filters">
+            <div class="filter-group">
+                <label>Experience Level</label>
+                <select>
+                    <option>All Levels</option>
+                    <option>Entry Level</option>
+                    <option>Mid Level</option>
+                    <option>Senior Level</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Job Type</label>
+                <select>
+                    <option>All Types</option>
+                    <option>Full Time</option>
+                    <option>Part Time</option>
+                    <option>Contract</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Salary Range</label>
+                <select>
+                    <option>All Ranges</option>
+                    <option>₱15k - ₱30k</option>
+                    <option>₱30k - ₱60k</option>
+                    <option>₱60k+</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Location</label>
+                <select>
+                    <option>All Locations</option>
+                    <option>Remote</option>
+                    <option>Manila</option>
+                    <option>Cebu</option>
+                    <option>Davao</option>
+                </select>
+            </div>
+        </div>
+        <div class="job-listings">
+            <!-- Job cards will be inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Job Seekers</h4>
+                <ul>
+                    <li><a href="#">Browse Jobs</a></li>
+                    <li><a href="#">Career Advice</a></li>
+                    <li><a href="#">Resume Tips</a></li>
+                    <li><a href="#">Job Alerts</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Employers</h4>
+                <ul>
+                    <li><a href="#">Post a Job</a></li>
+                    <li><a href="#">Browse Candidates</a></li>
+                    <li><a href="#">Recruitment Solutions</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>About Kalibrr</h4>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Download our mobile app here:</h4>
+                <div class="app-downloads">
+                    <a href="#" class="app-button">
+                        <img src="assets/app-store.png" alt="Download on App Store">
+                    </a>
+                    <a href="#" class="app-button">
+                        <img src="assets/google-play.png" alt="Get it on Google Play">
+                    </a>
+                    <a href="#" class="app-button">
+                        <img src="assets/app-gallery.png" alt="Get it on AppGallery">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Kalibrr Technology Ventures Inc.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <span class="divider">|</span>
+                <a href="#">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
